@@ -4,13 +4,13 @@
 By Alexa Schlotter and Shahd ElNaggar 
 
 
-data files:  
+**data files:**  
 ~/final-project/data/YACHIDA_CRC_2019:  Yachida-CRC-2019 (patients with colonoscopy findings from normal to stage 4 colorectal cancer, n = 347)  
 ~/final-project/data/SINHA_CRC_2016: Sinha-CRC-2016 (CRC and controls, n = 131)  
 ~/final-project/data/KIM_ADENOMAS_2020: Kim-Aden-Omas-2020 (patients with advanced colorectal adenomas, CRC, controls, n = 240)  
 All data in this directory was already preprocessed and downloaded directly from the Borenstein (https://github.com/borenstein-lab/microbiome-metabolome-curated-data)  
 
-code files:  
+**code files:** 
 ~/final-project/code/iNMF_functions.py : the model implementation and additional visualization functions are all stored here
 functions:  
 - load data(file_path): Loads data from a given file path containing the taxa or metabolite counts from the given datasets, expecting a tab-separated CSV file, and returns it as a pandas DataFrame with the first column set as the index.
@@ -34,7 +34,7 @@ functions:
 	
 ~/final-project/code/iNMF_run.py : this is our code for running our model on the three datasets and producing visualizations 
 
-output files: (all pickle files storing output variables)  
+**output files: (all pickle files storing output variables)**  
 
 These pickle files contain the model output when run on the three datasets. Each file contains the W, H, V matrices and the best loss curve.  
 
